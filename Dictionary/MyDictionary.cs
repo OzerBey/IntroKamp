@@ -27,7 +27,7 @@ namespace Dictionary
                 keys[i] = tempKey[i];
                 values[i] = tempValue[i];
             }
-            for (int j = 0; j < tempKey.Length; j++)
+            for (int j = 0; j < keys.Length; j++)
             {
                 if (key == null)
                 {
@@ -56,15 +56,15 @@ namespace Dictionary
         {
             get { return values; }
         }
-        public void getAll()
+ 
+        /*
+               public void getAll()
         {
             for (int i = 0; i < keys.Length; i++)
             {
                 Console.WriteLine(keys[i] + ": " + values[i]);
             }
         }
-        /*
-        
          */
     }
 }

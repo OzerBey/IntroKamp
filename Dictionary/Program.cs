@@ -18,6 +18,8 @@ namespace Dictionary
             {
                 Console.WriteLine("values:" + values);
             }
+            //Console.WriteLine("------------------------");
+            //myDictionary.getAll();
 
 
 
