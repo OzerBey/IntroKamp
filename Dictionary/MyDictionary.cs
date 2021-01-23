@@ -56,7 +56,13 @@ namespace Dictionary
         {
             get { return values; }
         }
-
+        public void getAll()
+        {
+            for (int i = 0; i < keys.Length; i++)
+            {
+                Console.WriteLine(keys[i] + ": " + values[i]);
+            }
+        }
         /*
         
          */
