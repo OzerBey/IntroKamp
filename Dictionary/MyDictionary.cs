@@ -27,6 +27,17 @@ namespace Dictionary
                 keys[i] = tempKey[i];
                 values[i] = tempValue[i];
             }
+            for (int j = 0; j < tempKey.Length; j++)
+            {
+                if (key==null)
+                {
+                    Console.WriteLine("Key can't be null");
+                }
+                else if (tempKey[j].Equals(key))
+                {
+                    Console.WriteLine("Already exist in array");
+                }
+            }
             keys[keys.Length - 1] = key; values[values.Length - 1] = value;
         }
 
@@ -34,6 +45,11 @@ namespace Dictionary
         {
             get { return keys.Length; }
 
+        }
+
+        public T[] Keys
+        {
+            get { return keys; }
         }
 
         public V[] Values
