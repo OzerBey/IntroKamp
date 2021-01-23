@@ -29,11 +29,11 @@ namespace Dictionary
             }
             for (int j = 0; j < tempKey.Length; j++)
             {
-                if (key==null)
+                if (key == null)
                 {
                     Console.WriteLine("Key can't be null");
                 }
-                else if (tempKey[j].Equals(key))
+                else if (keys[j].Equals(key))
                 {
                     Console.WriteLine("Already exist in array");
                 }
@@ -56,5 +56,9 @@ namespace Dictionary
         {
             get { return values; }
         }
+
+        /*
+        
+         */
     }
 }
