@@ -1,0 +1,6 @@
+﻿-classlarda Özellik tuttugumuz yerde operasyon tutmuyoruz operasyon tuttugumuz yerde özellik tutmuyoruz !!
+-imzanın aynı oldugu ama içerigini farklı oldugu durumlarda interface olarak kullanırız
+-interfaceler onu implement eden referans numarası tutabiliyor (ICreditManager mortgageCreditManager = new MortgageCreditManager();)
+-interfaceler newlenemez !!!!
+-interfaceleri birbirinin alternatifi olan ama kod içerikleri farklı olan durumlar için kullanılır.
+-*interface miras verdikleri classların referanslarını tutarlar
