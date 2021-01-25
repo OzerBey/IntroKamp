@@ -47,15 +47,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesIntro", "Interfaces\InterfacesIntro.csproj", "{E2EB6F1F-3825-4D98-98D3-14929F0751D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{163C9CF4-39F8-4042-A5B9-47D5F143C74F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{163C9CF4-39F8-4042-A5B9-47D5F143C74F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritace", "Inheritace\Inheritace.csproj", "{B747708F-DEC8-4A8A-8480-5C1C957FC665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritace", "Inheritace\Inheritace.csproj", "{B747708F-DEC8-4A8A-8480-5C1C957FC665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesPlus", "Interfaces+\InterfacesPlus.csproj", "{4D6BF57E-1584-4056-931F-8A97E26C9B55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesPlus", "Interfaces+\InterfacesPlus.csproj", "{4D6BF57E-1584-4056-931F-8A97E26C9B55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstracts", "Abstracts\Abstracts.csproj", "{D528726A-A814-48D7-82C6-26445DBB62D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstracts", "Abstracts\Abstracts.csproj", "{D528726A-A814-48D7-82C6-26445DBB62D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{58B4BB96-C413-4D53-B87D-BA9D894DB1EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{58B4BB96-C413-4D53-B87D-BA9D894DB1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapPlayerDemo", "RecapPlayerDemo\RecapPlayerDemo.csproj", "{207ACB55-A809-4E34-AC23-A1087DF09BD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{58B4BB96-C413-4D53-B87D-BA9D894DB1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58B4BB96-C413-4D53-B87D-BA9D894DB1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B4BB96-C413-4D53-B87D-BA9D894DB1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207ACB55-A809-4E34-AC23-A1087DF09BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207ACB55-A809-4E34-AC23-A1087DF09BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207ACB55-A809-4E34-AC23-A1087DF09BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207ACB55-A809-4E34-AC23-A1087DF09BD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +194,7 @@ Global
 		{4D6BF57E-1584-4056-931F-8A97E26C9B55} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
 		{D528726A-A814-48D7-82C6-26445DBB62D8} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
 		{58B4BB96-C413-4D53-B87D-BA9D894DB1EE} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
+		{207ACB55-A809-4E34-AC23-A1087DF09BD7} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0FCFB57-FBCB-4C13-BF3E-FA114F4F2A3C}
