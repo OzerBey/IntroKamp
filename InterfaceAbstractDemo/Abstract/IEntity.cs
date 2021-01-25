@@ -1,0 +1,7 @@
+﻿namespace InterfaceAbstractDemo
+{
+   
+    interface IEntity
+    {
+    }
+}

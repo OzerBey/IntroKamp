@@ -1,0 +1,2 @@
+﻿-Bir class birden fazla interface yi implement edebilir
+-bu projede SOLID in I harfı olan (Interface segregation) interfacein dogrukullanımı kuralımı uygulamış olduk

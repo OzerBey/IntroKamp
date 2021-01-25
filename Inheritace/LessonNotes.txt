@@ -1,0 +1,6 @@
+﻿-Bir sınıf bir nesneyi sadece bir kez interitance (miras) alabilir ama birden fazla implemetation yapabiliriz
+-Yazım şekli ise Class Worker: Person, IWorker // önce inheritance sonra implementation yazılır
+-classların tek başına bir anlamı vardır ama interfacelerin tek başına bir anlamı yoktur.
+-abstraclarda inheritance kullanımı daha yaygındır
+-inheritance vs interface :
+	aynı isim ama farklı işlemn gerektiren işlerim varsa interfaceyi tercih edebilirim

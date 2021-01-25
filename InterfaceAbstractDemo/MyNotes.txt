@@ -1,0 +1,23 @@
+﻿-----İstenilen görev-------
+Kahve dükkanları için müşteri yönetimi için bir sistem yazmak istiyoruz
+Starbucks ve Nero firmalari için çalışıyoruz
+iki firmada müşterilerini veri tabanına kaydetmek istiyor
+Starbucks müşterileri kaydederken, mutlaka mernis dogurlaması istiyor. Nero müşterileri kaydederken böyle bir şey istemiyor
+Starbucks müşteriler için her kahve alımında yıldız kazandrımak istiyor..
+virtual: ben bu fonksiyonu ezebilirim demektir
+
+
+S - Tek Sorumluluk İlkesi
+O - Açık-kapalı Prensip
+L - Liskov İkame İlkesi
+I - Arayüz Ayrımı İlkesi
+D - Bağımlılığı Ters Çevirme İlkesi
+------------------------------------
+S - Single-responsiblity Principle
+O - Open-closed Principle
+L - Liskov Substitution Principle
+I - Interface Segregation Principle
+D - Dependency Inversion Principle
+
+
+entity :varlık entity nin içinde başka bir iş yapılmaz 

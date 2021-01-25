@@ -1,0 +1,1 @@
+﻿-get set özellikelrini (properties) kullanma amacımız : degeri alırken yada yazarken bir değişiklik yapıyorsak bu properties yapısını kullanırız.
