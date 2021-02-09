@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductClass", "Odevler\ProductClass.csproj", "{76458388-A120-40C5-8AE7-23140A104497}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Beginner", "Beginner", "{555DA848-18B1-4858-8B66-E733B0AA5B56}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Beginner", "1.Beginner", "{555DA848-18B1-4858-8B66-E733B0AA5B56}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{951D7849-7552-4E4D-B51B-204DC8DA7670}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{A89E27DF-6FE1-42AB-958F-6070D5BDA69D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "II.Solution project", "II.Solution project", "{5C7D8B8E-5119-4184-896E-42B62C4391CA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Solution project", "2.Solution project", "{5C7D8B8E-5119-4184-896E-42B62C4391CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Method", "Method\Method.csproj", "{6E98A669-A2FE-4A81-B7D0-5B4659239C51}"
 EndProject
@@ -35,7 +35,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{77E70300-6E5F-4DA0-9FA7-F16489AAB89C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lll. Solution project", "lll. Solution project", "{9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Solution project", "3. Solution project", "{9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}"
+	ProjectSection(SolutionItems) = preProject
+		DbNote.txt = DbNote.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{7111AD38-2D02-4F7D-B053-0D64DC212992}"
 EndProject
@@ -57,7 +60,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstracts", "Abstracts\Abst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{58B4BB96-C413-4D53-B87D-BA9D894DB1EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapPlayerDemo", "RecapPlayerDemo\RecapPlayerDemo.csproj", "{207ACB55-A809-4E34-AC23-A1087DF09BD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecapPlayerDemo", "RecapPlayerDemo\RecapPlayerDemo.csproj", "{207ACB55-A809-4E34-AC23-A1087DF09BD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Solution project", "4.Solution project", "{0A5ABFFF-14EB-4974-A32F-0061243AFB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{036C753F-2A30-482B-845C-19AE0049F303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +172,10 @@ Global
 		{207ACB55-A809-4E34-AC23-A1087DF09BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207ACB55-A809-4E34-AC23-A1087DF09BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207ACB55-A809-4E34-AC23-A1087DF09BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036C753F-2A30-482B-845C-19AE0049F303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036C753F-2A30-482B-845C-19AE0049F303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036C753F-2A30-482B-845C-19AE0049F303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036C753F-2A30-482B-845C-19AE0049F303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +206,7 @@ Global
 		{D528726A-A814-48D7-82C6-26445DBB62D8} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
 		{58B4BB96-C413-4D53-B87D-BA9D894DB1EE} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
 		{207ACB55-A809-4E34-AC23-A1087DF09BD7} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
+		{036C753F-2A30-482B-845C-19AE0049F303} = {0A5ABFFF-14EB-4974-A32F-0061243AFB3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0FCFB57-FBCB-4C13-BF3E-FA114F4F2A3C}

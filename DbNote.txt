@@ -1,0 +1,52 @@
+--Command line for Sql Query
+--Select
+--ANSI metinler tek týrnak ile yazýlýr
+select ContactName Adi,CompanyName Sirketadi,City þehir from Customers
+select * from Customers where City='London'
+--CAsE insensitive : Büyük küçük duyarlý
+select * from Products where CategoryID=1 or CategoryID=3
+select * from Products where CategoryID=1 and UnitPrice>=10 
+--ascending :artan default olarak asc dir
+--descending :azalan desc
+select * from Products where CategoryID=1 order by UnitPrice desc
+--count(*) kaç satýr var sayýsý onu sayan döndüren sorgu ifadesi
+select count(*)as Adet from Products where CategoryID=1
+
+--group by : bu kullanýýlýnca select kolonu sadece group by edilen alan olabilir 
+--"hangi kategoride kaç farklý ürün var" sorgusu 
+select CategoryID,count(*) as adet from Products group by CategoryID
+--ürün sayisi 10 dan az olan kategorileri listele
+--NOte: where datayý filtreler !! önce her zaman where çalýþýr
+--having, kümülatif degerlere (count(*)) uygulanýr
+select CategoryID,count(*) as adet from Products group by CategoryID having count(*)<10
+
+select CategoryID,ProductName as Ürünler,count(*) as adet from Products where UnitPrice>20 group by CategoryID,ProductName having count(*)<10
+
+-----------------------------JOIN-----------------------------kouþulu on ile yazýlýr 
+select Products.ProductID,Products.ProductName,Products.UnitPrice,Categories.CategoryName 
+from Products inner join Categories on Products.CategoryID=Categories.CategoryID
+where Products.UnitPrice>10
+---(DTO) Data Transformation Object 
+
+----inner join : sadece iki tabloda da eþleþenleri getitir ama eþleþmeyen data varsa getirmez
+--
+select * from Products as p inner join [Order Details] as od on p.ProductID=od.ProductID
+--left join : hem inner join olanlarý hemde solda olup sagda olmayanlarý da getir demektir
+select * from Products as p left join [Order Details] as od on p.ProductID=od.ProductID
+
+select *from Customers as c left join Orders as o on c.CustomerID=o.CustomerID
+
+--sisteme kaydolomuþ ama alýþveriþ yapmamýþ müþterileri getir
+--NOte: is null sorgusunu, Primary keye uygularýz 
+select *from Customers as c left join Orders as o on c.CustomerID=o.CustomerID where o.CustomerID is null
+--right join ise left joinin tam tersi dir yani sagda olup solda olmayanlar örnekte is sipariþte olup müþteride olmayanlari temsil eder
+--ikiden fazla tabloyu join etmek için ise : devamýna bir inner join daha ekleriz
+select * from Products as p left join [Order Details] as od on p.ProductID=od.ProductID inner join Orders as o on o.OrderID=od.OrderID
+
+--
+-iki kolonun birden tekrar etmesi gerekiyorsak Unique Key yaparýz ama Primary key ise bir tabloda sadece bir tane olan degerdir ve PK olan 
+deger asla tekrar etmez
+-foreign key yabancýl anahtar
+-Overdesign :Aþýrý tasarým bizim için yönetilebilir olmaktan çýkma durumudur. 
+-Handle Etme (Kontrol altýnda tutabilmek)
+-SOLID  
