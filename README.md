@@ -5,6 +5,7 @@ Description For Link Project
  ***Linq yapısı 
  
  Yazmış oldugum kodumda ;
+ 
  List<Category> categories = new List<Category>() 
  List<Product> products = new List<Product>()
  
