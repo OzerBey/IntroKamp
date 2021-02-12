@@ -15,7 +15,7 @@ select * from Customers order by Country asc, ContactName desc
 --using INSERT INTO
 INSERT INTO Customers (ContactName,City, PostalCode)
 VALUES ('OZER','Ysn','21','4006');
-select * from Customers where CompanyName in('Ozer')
+select * from Customers where CompanyName in('Ozer') 
 
 
 

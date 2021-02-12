@@ -64,7 +64,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecapPlayerDemo", "RecapPla
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Solution project", "4.Solution project", "{0A5ABFFF-14EB-4974-A32F-0061243AFB3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{036C753F-2A30-482B-845C-19AE0049F303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqProject", "LinqProject\LinqProject.csproj", "{036C753F-2A30-482B-845C-19AE0049F303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{B211AEF7-9662-4BF9-91F0-F0712B55E342}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -176,6 +178,10 @@ Global
 		{036C753F-2A30-482B-845C-19AE0049F303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{036C753F-2A30-482B-845C-19AE0049F303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{036C753F-2A30-482B-845C-19AE0049F303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B211AEF7-9662-4BF9-91F0-F0712B55E342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B211AEF7-9662-4BF9-91F0-F0712B55E342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B211AEF7-9662-4BF9-91F0-F0712B55E342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B211AEF7-9662-4BF9-91F0-F0712B55E342}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,6 +213,7 @@ Global
 		{58B4BB96-C413-4D53-B87D-BA9D894DB1EE} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
 		{207ACB55-A809-4E34-AC23-A1087DF09BD7} = {9E2F44B2-8F2A-4F5E-939A-EC5AC9413259}
 		{036C753F-2A30-482B-845C-19AE0049F303} = {0A5ABFFF-14EB-4974-A32F-0061243AFB3E}
+		{B211AEF7-9662-4BF9-91F0-F0712B55E342} = {0A5ABFFF-14EB-4974-A32F-0061243AFB3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0FCFB57-FBCB-4C13-BF3E-FA114F4F2A3C}

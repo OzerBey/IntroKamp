@@ -50,6 +50,7 @@ namespace LinqProject
             //AscDescTest(products);
             //ClassicLinqTest(products);
             //for join process 
+            
             var result = from p in products
                          join c in categories on p.CategoryId equals c.CateogryId
                          where p.UnitPrice > 5000
